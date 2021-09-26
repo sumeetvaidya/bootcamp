@@ -2,6 +2,8 @@
 import csv
 from pathlib import Path
 
+__author__ = "sumeet vaidya"
+
 """Part 1: Automate the Calculations.
 
 Automate the calculations for the loan portfolio summaries.
@@ -212,10 +214,17 @@ output_path = Path("inexpensive_loans.csv")
 # and each row of `loan.values()` from the `inexpensive_loans` list.
 # YOUR CODE HERE!
 with open(output_path,'w',newline='') as csvfile:
+	#Write to csv using DictWriter
 	writer = csv.DictWriter(csvfile, fieldnames=header)
 	writer.writeheader()
 	for loan in inexpensive_loans:
 		writer.writerow(loan)
+
+#Implementation using list
+	#writer = csv.writer(csvfile)
+	#writer.writerow(header)
+	#for loan in inexpensive_loans:
+	#	writer.writerow(list(loan.values()))
 
 
 
