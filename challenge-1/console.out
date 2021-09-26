@@ -1,0 +1,23 @@
+Script started on Sun Sep 26 12:41:00 2021
+Restored session: Sun Sep 26 12:40:18 EDT 2021
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     ]7;file://sumeets-mbp.lan/Users/sumeetvaidya/bootcamp/challenge-1[0m[27m[24m[J(base) sumeetvaidya@sumeets-mbp challenge-1 % [K[?2004hppython loan_analyzer.py[1m [0m[0m [?2004l
+Number of loans = 5
+Total of all loans = 2750
+Average of all loans =550.0
+Future Value = 1000, Remaining Months =9
+The present value of the loan is: 861.77
+The loan is worth at least the cost to buy it
+The present value of the loan is: 820.08
+Inexpensive loans=[{'loan_price': 500, 'remaining_months': 13, 'repayment_interval': 'bullet', 'future_value': 1000}, {'loan_price': 200, 'remaining_months': 16, 'repayment_interval': 'bullet', 'future_value': 1000}]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     ]7;file://sumeets-mbp.lan/Users/sumeetvaidya/bootcamp/challenge-1[0m[27m[24m[J(base) sumeetvaidya@sumeets-mbp challenge-1 % [K[?2004hlls[?2004l
+console.out		inexpensive_loans.csv	loan_analyzer.py
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     ]7;file://sumeets-mbp.lan/Users/sumeetvaidya/bootcamp/challenge-1[0m[27m[24m[J(base) sumeetvaidya@sumeets-mbp challenge-1 % [K[?2004hccat inexpensive_loans.csv[1m [0m[0m [?2004l
+loan_price,remaining_months,repayment_interval,future_value
+500,13,bullet,1000
+200,16,bullet,1000
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     ]7;file://sumeets-mbp.lan/Users/sumeetvaidya/bootcamp/challenge-1[0m[27m[24m[J(base) sumeetvaidya@sumeets-mbp challenge-1 % [K[?2004h[?2004l
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Sun Sep 26 12:41:33 2021
