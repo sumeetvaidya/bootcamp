@@ -1,26 +1,27 @@
-** Project Title ** <br/>
-** Qualifying Loans Application **<br/>
+# Project Title : Qualifying Loans Application <br/>
 This project creates a command line application that searches a qualifying loan based on the applicant's financial profile
-
 <br/>
-** Technologies** <br/>
+
+
+## Technologies <br/>
 
 The project is written in python and uses CLI libraries (fire and questionary), and csv library to read and write csv data.
----
 <br/>
-** Installation Guide ** <br/>
+
+## Installation Guide  <br/>
 
 To install the program, download the git repo.
 
----
 <br/>
-** Usage ** <br/>
+
+## Usage  <br/>
 
 To run change directory to the loan_qualifier_app folder, and execute "python app.py" <br/>
 
-Sample Runs <br/>
+### Sample Run <br/>
 
-No Qualifing Loan Example <br/>
+#### No Qualifing Loan Example <br/>
+
 % python app.py<br/>
 ? Enter a file path to a rate-sheet (.csv): data/daily_rate_sheet.csv<br/>
 ? What's your credit score? 700<br/>
@@ -33,7 +34,9 @@ The loan to value ratio is 0.33.<br/>
 Found 0 qualifying loans<br/>
 Exit!<br/>
 <br/>
-Qualifing Loan but the user opts to not save the file<br/>
+
+
+#### Qualifing Loan but the user opts to not save the file<br/>
 % python app.py<br/>
 ? Enter a file path to a rate-sheet (.csv): data/daily_rate_sheet.csv<br/>
 ? What's your credit score? 700<br/>
@@ -49,7 +52,7 @@ Exit!<br/>
 <br/>
 
 
-Qualifing Loan and the user opts to save the file<br/>
+#### Qualifing Loan and the user opts to save the file<br/>
 % python app.py<br/>
 ? Enter a file path to a rate-sheet (.csv): data/daily_rate_sheet.csv<br/>
 ? What's your credit score? 700<br/>
@@ -63,7 +66,7 @@ Found 11 qualifying loans<br/>
 ? Do you want to save the qualifying loans?(Y/N): Y<br/>
 ? Enter a file path to save qualifying loans (.csv): data/qualifying_loans.csv<br/>
 <br/>
-Sample qualifing loan data file<br/>
+#### Sample qualifing loan data file<br/>
 % cat data/qualifying_loans.csv<br/>
 Lender,Max Loan Amount,Max LTV,Max DTI,Min Credit Score,Interest Rate<br/>
 Bank of Big - Starter Plus,300000,0.85,0.39,700,4.35<br/>
@@ -79,14 +82,12 @@ Developers Credit Union - Starter Plus,200000,0.85,0.46,640,4.2<br/>
 Bank of Stodge & Stiff - Starter Plus,100000,0.8,0.35,680,4.35<br/>
 % <br/>
 
+
+## Contributors <br/>
+
+__Author: Sumeet Vaidya__<br/>
+__Contributors: BootCamp for providing the base code.__<br/>
 ---
 
-** Contributors **
-
-Author: Sumeet Vaidya
-Contributors: BootCamp for providing the base code.
----
-
-**## License **
-
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+## License <br/>
+The code is licensed using Educational Community License v2.0
