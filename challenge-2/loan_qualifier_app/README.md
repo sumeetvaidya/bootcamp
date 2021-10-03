@@ -90,4 +90,4 @@ __Contributors: BootCamp for providing the base code.__<br/>
 ---
 
 ## License <br/>
-The code is licensed using Educational Community License v2.0
+The code is licensed using Unlicense
